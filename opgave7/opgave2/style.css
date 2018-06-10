@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+
+    background-color: rgba(240, 240, 240, 0.25);
+
+}
+
+
+
+
+section {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #797979;
+
+
+}
+
+a:hover {
+    color: #333333;
+
+}
+
+#h1 {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+#experiencemap img {
+    width: 1000px;
+}
+
+
+#bmc img {
+    max-width: 1000px;
+
+}
+
+.wide {
+    max-width: 497px;
+}
+
+.narrow {
+    max-width: 247px;
+}
+
+#appikon img {
+    max-width: 497px;
+}
+
+#personas img {
+    width: 1000px;
+}
+
+#moodboard img {
+    width: 1000px;
+
+}
+
+#styletile img {
+    width: 1000px;
+
+}
+
+#scrum video {
+    max-width: 480px;
+    max-height: 300px;
+
+
+}
+
+#storyboard img {
+    max-width: 497px;
+
+}
+
+#charette img {
+    max-width: 1000px;
+}
+
+.scrum_div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.vandret_div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#test img {
+    width: 1000px;
+}
+
+#burndown img {
+    width: 1000px;
+
+}
+
+.scrum {
+    flex: 1;
+}
