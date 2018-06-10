@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilart.css">
+    <title> Jac´ Mat</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="billeder/Logo-jacmat%20white.png" href="forside.html" alt="logo">
+        </div>
+
+        <div class="nav">
+            <nav class="navigation">
+
+                <a class="burger-nav"></a>
+                <ul>
+                    <li>
+                        <a href="index.html">Jac´ Mat</a></li>
+                    <li><a href="galleri.html">Galleri</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="croquis.html">Croquis</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="om.html">Om</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="jac_mat">
+
+        <center>
+            <h1> Jac´ Mat </h1>
+        </center>
+        <center>
+            <h2> Art Gallery</h2>
+        </center>
+        <div class="sectionwrapper">
+            <div class="img">
+                <img class="slide" src="billeder/0be59ec330-C645188.jpg" style="width:100%">
+                <img class="slide" src="billeder/16729058_1527150280646437_6540172516092734125_n.jpg" style="width:100%">
+                <img class="slide" src="billeder/16730244_1527150310646434_10655801661816014_n.jpg" style="width:100%">
+                <img class="slide" src="billeder/16730312_1527150307313101_7401732298928958738_n.jpg" style="width:100%">
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("slide");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {
+                        myIndex = 1
+                    }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 3000);
+                }
+
+            </script>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <p> Copyright © All Rights Reserved The Jac´Mat Art Studio</p>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="menu.js"></script>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">

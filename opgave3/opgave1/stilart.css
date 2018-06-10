@@ -1,0 +1,318 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+
+}
+
+nav a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 60%;
+    padding: 25px;
+
+}
+
+.nav-wrapper {}
+
+
+
+img {
+    width: 100%;
+
+}
+
+h1 {
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+
+
+}
+
+h2 {
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 230%;
+    line-height: 1em;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: bold;
+    line-height: 1.5em;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+figcaption {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 80%;
+}
+
+
+
+#jac_mat .sectionwrapper {
+    margin: 2vw;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+#kontakt .sectionwrapper {
+    margin: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+#kontakt .column {
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+#kontakt .column_kort {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 10px;
+
+}
+
+#kontakt .colum {
+    padding-right: 15vw;
+    padding-bottom: 15vw;
+}
+
+.logo {
+    width: 25%
+}
+
+/*navigatio*/
+
+nav {
+    height: 50px;
+    list-style: none;
+    padding: 0px;
+
+    font-size: 20px;
+    display: inline;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50vw;
+    padding-top: 55px;
+    padding-left: 15px;
+}
+
+.nav {
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+
+/*mobil*/
+
+@media screen and (max-width: 1070px) {
+    .burger-nav {
+        display: block;
+        height: 40px;
+
+        background: url(billeder/burger-menu.png) no-repeat 98% center;
+        cursor: pointer;
+
+    }
+    header nav ul {
+        overflow: hidden;
+        background-color: whitesmoke;
+        height: 0;
+    }
+    header nav ul.open {
+        height: auto;
+
+    }
+    header nav ul li {
+        float: none;
+        text-align: right;
+        width: 100%;
+
+    }
+    header nav ul li a {
+        padding: 10px;
+        border-bottom: 1px;
+        display: block;
+    }
+
+}
+
+/*galleri*/
+
+.video .iframe {}
+
+.video {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+
+}
+
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 25px;
+}
+
+#galleri img {
+    width: 250px;
+    height: auto;
+}
+
+figure {
+    display: inline-block;
+    margin: 10px;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+#galleri .sectionwrapper {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#galleri h1 {
+    padding-top: 50px;
+}
+
+
+.content {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*shop*/
+
+#shop img {
+    width: 250px;
+    height: 250px;
+}
+
+figure {
+    display: inline-block;
+    margin: 10px;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+#shop .sectionwrapper {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+
+
+.content {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/*text-css*/
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/*om*/
+
+#Om p {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#Om img {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    width: 70vw;
+}
+
+/*croquis*/
+
+#croquis p {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#croquis img {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    width: 70vw;
+}
