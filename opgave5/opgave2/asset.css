@@ -1,0 +1,122 @@
+body {
+    background-image: url("dokuArtboard%201.png");
+    background-color: #23262a;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+
+nav {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+nav .content a {
+    display: inline-flex;
+    padding: 4px 4px;
+    border: 1px solid #f08300;
+    border-radius: 2px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #f08300;
+
+}
+
+nav a:hover {
+    background-color: #c451b2;
+    color: black;
+    border: 1px solid #c451b2;
+    transition: 0.2s ease-in, 0.2s ease-out;
+    font-size: 120%;
+}
+
+
+
+nav a:active {
+    text-decoration-line: underline;
+    font-size: 120%;
+
+}
+
+.dokusite {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    text-decoration-line: underline;
+    color: #f08300;
+    text-align: center;
+}
+
+.group {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    text-decoration-line: underline;
+    color: white;
+    text-align: center;
+}
+
+.navne {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    color: white;
+}
+
+
+
+.jek,
+.jip,
+.ada,
+.aivd {
+    width: 25%;
+    float: left;
+    text-align: center;
+    align-items: center;
+   /* padding-left: 6.25%;
+   padding-right: 6.25%;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;*/
+}
+
+
+.column1 { 
+    
+    float: left;
+    width:  25%;
+    align-content: center;
+    padding-top: 30px;
+    margin: 100px;
+    margin-left: 25%;
+    
+}
+
+.column2 { 
+    
+    float: left;
+    width:  25%
+    align-content: center;
+    padding-top: 30px;
+    margin: 100px;
+}
+
+p {
+  
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    /*text-decoration-line: underline;*/
+    color: #f08300;
+    text-decoration: underline
+}
+
+h3 {
+    
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    /*text-decoration-line: underline;*/
+    color: #f08300;
+    text-decoration: underline
+    
+    
+}

@@ -1,0 +1,93 @@
+body {
+    margin: 0 !important;
+    padding: 0% 20% 3.5% 20% !important;
+}
+
+@font-face {
+    src: url(fonts/msyi.ttf);
+    font-family: "Microsoft Yi Baiti";
+}
+
+/***************meny**************/
+
+
+a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+.dropdown-content a {
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    font-family: "Microsoft Yi Baiti";
+    letter-spacing: 1px;
+    font-size: 160%;
+    white-space: nowrap;
+    color: black;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: crimson;
+}
+
+.dropdown-content a:hover {color: red}
+
+/************meny slut***********/
+
+/***************meny2**************/
+
+
+
+
+.vertical-menu a {
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    font-family: "Microsoft Yi Baiti";
+    letter-spacing: 1px;
+    font-size: 160%;
+    white-space: nowrap;
+    color: black;
+    top: 130px;
+    left: 40px;
+    position:relative
+}
+
+.vertical-menu a:hover {background-color: white}
+
+.vertical-menu a:hover {color: red}
+
+/************meny2 slut***********/

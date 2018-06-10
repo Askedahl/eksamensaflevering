@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    background-color: black;
+    transition:all 1s;
+}
+
+.scene {
+    width: 100vw;
+    height: 56.4vw;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*******************************start********************************/
+
+.start_baggrund {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Start_baggrund%201-min.png);
+    background-size: 100%;
+}
+
+.knap_start {
+    width: 30vw;
+    height: 30vw;
+    background-image: url(img/Knap_%20Start.png);
+    background-size: 100%;
+    position: absolute;
+    top: 35vw;
+    left: 35vw;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+/*******************************tart_slut********************************/
+
+/*******************************frame 1 start********************************/
+
+.frame1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/frame_1_spritesheet.svg);
+    background-size: 300% 100%;
+    animation: frame1_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: 5;
+}
+
+@keyframes frame1_kf {
+        0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 300% 0%;
+    }
+}
+
+/*******************************frame 1 slut********************************/
+
+
+/*******************************frame 2 start********************************/
+
+.frame2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/frame_2_spritesheet.svg);
+    background-size: 300% 100%;
+    animation: frame2_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: 10;
+}
+
+@keyframes frame2_kf {
+        0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -300% 0%;
+    }
+}
+
+
+/*******************************frame 2 slut********************************/
+
+/*******************************frame 3 start********************************/
+
+.frame3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/noegen.svg);
+    background-size: 100%;
+}
+
+.send_knap {
+    width: 30vw;
+    height: 30vw;
+    background-image: url(img/send-knap.png);
+    background-size: 100%;
+    position: absolute;
+    top: 43vw;
+    left: 15vw;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.slet_knap {
+    width: 30vw;
+    height: 30vw;
+    background-image: url(img/Slet-knap.png);
+    background-size: 100%;
+    position: absolute;
+    top: 43vw;
+    left: 57vw;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+/*******************************frame 3 slut********************************/
+
+
+/*******************************frame 4+5 start********************************/
+
+.frame4_5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Spritesheet%20jakob.svg);
+    background-size: 400% 100%;
+    animation: frame4_5_kf;
+    animation-duration: 8s;
+    animation-timing-function: steps(4);
+    animation-fill-mode: both;
+}
+
+@keyframes frame4_5_kf {
+        0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -400% 0%;
+    }
+}
+
+/*******************************frame 4+5 slut********************************/
+
+
+/*******************************frame 6 start********************************/
+
+.frame6 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/frame_1_spritesheet.svg);
+    background-size: 300% 100%;
+    animation: frame6_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: 1;
+}
+
+@keyframes frame6_kf {
+        0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 300% 0%;
+    }
+}
+
+
+/*******************************frame 6 slut********************************/
+
+/*******************************frame 7 start********************************/
+
+.frame7 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Sprite_Room_v1_red_blue.svg);
+    background-size: 800% 100%;
+    animation: frame7_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(7);
+    animation-fill-mode: both;
+    animation-iteration-count: 10;
+}
+
+@keyframes frame7_kf {
+        0% {
+        background-position: -100% 0%;
+    }
+    100% {
+        background-position: -800% 0%;
+    }
+}
+
+/*******************************frame 7 slut********************************/
+
+.frame9 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Sprite_pc_shutdown_final.svg);
+    background-size: 1400% 100%;
+    animation: frame9_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(14);
+    animation-fill-mode: both;
+}
+
+@keyframes frame9_kf {
+        0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -1400% 0%;
+    }
+}
+
+/*******************************frame 8 start********************************/
+
+.frame8 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    animation: frame8_kf;
+    animation-duration: 2s;
+
+}
+
+@keyframes frame8_kf {
+        0% {
+
+    }
+    100% {
+
+    }
+}
+
+/*******************************frame 8 slut********************************/
+
+/*******************************frame 10 start********************************/
+
+.frame10 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/frame_6.svg);
+    animation: frame10_kf;
+    animation-duration: 4s;
+}
+
+@keyframes frame10_kf {
+        0% {
+
+    }
+    100% {
+
+    }
+}
+
+/*******************************frame 10 slut********************************/
+
+
+/*******************************frame 11 start********************************/
+
+.frame11 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/frame11.svg);
+    background-size: 1000% 100%;
+    animation: frame11_kf;
+    animation-duration: 4s;
+    animation-timing-function: steps(10);
+    animation-fill-mode: both;
+}
+
+@keyframes frame11_kf {
+        0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -1000% 0%;
+    }
+}
+
+/*******************************frame 11 slut********************************/
+
+
+/*******************************frame 12 start********************************/
+
+.frame12 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/frame121.svg);
+    animation: frame12_kf;
+    animation-duration: 200s;
+}
+
+@keyframes frame12_kf {
+        0% {
+
+    }
+    100% {
+
+    }
+}
+
+/*******************************frame 12 slut********************************/

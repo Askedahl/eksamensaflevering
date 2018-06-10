@@ -1,0 +1,178 @@
+body {
+    background-image: url("dokuArtboard%201.png");
+    background-color: #23262a;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+
+content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+nav .content a {
+    display: inline-flex;
+    padding: 4px 4px;
+    border: 1px solid #f08300;
+    border-radius: 2px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #f08300;
+
+}
+
+nav a:hover {
+    background-color: #c451b2;
+    color: black;
+    border: 1px solid #c451b2;
+    transition: 0.2s ease-in, 0.2s ease-out;
+    font-size: 120%;
+}
+
+
+
+nav a:active {
+    text-decoration-line: underline;
+    font-size: 120%;
+
+}
+
+.dokusite {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    text-decoration-line: underline;
+    color: #f08300;
+    text-align: center;
+}
+
+.group {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    text-decoration-line: underline;
+    color: white;
+    text-align: center;
+}
+
+.navne {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    color: white;
+}
+
+
+
+.jek,
+.jip,
+.ada,
+.aivd {
+    width: 25%;
+    float: left;
+    text-align: center;
+    align-items: center;
+   /* padding-left: 6.25%;
+   padding-right: 6.25%;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;*/
+}
+
+
+
+.column1,
+.column2,
+.column3 {
+
+    float: left;
+    width: 20%;
+    align-content: center;
+    margin: 100px;
+
+}
+
+
+
+
+.column1 {
+    padding-left: 53px;
+}
+
+.column2 {
+    padding-left: 53px;
+}
+
+.column3 {
+    padding-right: 53px;
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+/*h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.2em;
+    text-decoration-line: underline;
+    color: white;
+    text-align: center;
+
+}*/
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    /*text-decoration-line: underline;*/
+    color: #f08300;
+    text-decoration: underline
+}
+
+
+
+
+a:link {
+    display: inline-flex;
+    padding: 4px 4px;
+    border: 1px solid #5a5a5a;
+    border-radius: 2px;
+    color: white;
+    background-color: #5a5a5a;
+    transition: 0.2s ease-in, 0.2s ease-out;
+
+}
+
+a:visited {
+    background-color: #5a5a5a;
+    color: black;
+    border: 1px solid #5a5a5a;
+    transition: 0.2s ease-in, 0.2s ease-out;
+
+
+}
+
+a:hover {
+    background-color: #f08300;
+    color: white;
+    border: 1px solid #f08300;
+    transition: 0.2s ease-in, 0.2s ease-out;
+    /*font-size: 120%;*/
+    font-size: 105%;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+    background-color: #c451b2;
+    border: 1px solid #c451b2;
+}
